@@ -10,7 +10,5 @@ public class apresentacao extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apresentacao);
-
-         Button btn = findViewById(R)
     }
 }

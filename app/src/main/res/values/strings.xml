@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">formula1</string>
+    <string name="app_name">Speed Track</string>
     <string name="title_activity_pistas">Leanback pistas</string>
     <string name="browse_title">Videos by Your Company</string>
     <string name="related_movies">Related Videos</string>
@@ -13,6 +13,41 @@
     <string name="buy_1">Buy and Own</string>
     <string name="buy_2">AT $9.99</string>
     <string name="movie">Movie</string>
+
+    <string name="contentdesc"></string>
+
+
+    <!--Drivers-->
+    <string name="drivers">DRIVERS</string>
+
+    <string name="lewis_hamilton">Lewis Hamilton</string>
+    <string name="michael_schumacher">Michael Schumacher</string>
+    <string name="ayrton_senna">Ayrton Senna</string>
+    <string name="max_verstappen">Max Verstappen</string>
+    <string name="charles_leclrc">Charles Leclrc</string>
+    <string name="daniel_ricciardo">Daniel Ricciardo</string>
+
+    <!--Pistas-->
+    <string name="pistas">PISTAS</string>
+
+    <string name="baku">Baku City Circuit</string>
+    <string name="monaco">Mônaco Circuit</string>
+    <string name="sachsenring">Sachsenring Circuit</string>
+    <string name="interlagos">Interlagos Circuit</string>
+    <string name="suzuka">Suzuka Circuit</string>
+    <string name="al">Albert Park Circuit</string>
+    <string name="miami">Miami Circuit</string>
+
+    <!--Marcas-->
+    <string name="marcas">MARCAS</string>
+
+    <string name="mercedes">Mercedes</string>
+    <string name="red_bull">Red Bull</string>
+    <string name="ferrari">Ferrari</string>
+    <string name="mclaren">McLaren</string>
+    <string name="aston_martin">Aston Martin</string>
+    <string name="alfa_romeo">Alfa Romeo</string>
+    <string name="haas">Haas</string>
 
     <!-- Error messages -->
     <string name="error_fragment_message">An error occurred</string>

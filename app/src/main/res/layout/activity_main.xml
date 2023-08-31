@@ -16,17 +16,18 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="40dp"
-                android:textSize="26sp"
-                android:textStyle="bold"
                 android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:text="@string/drivers"
                 android:textColor="@color/black"
-                android:text="DRIVERS"/>
+                android:textSize="26sp"
+                android:textStyle="bold" />
 
 
             <androidx.cardview.widget.CardView
@@ -42,19 +43,22 @@
                     android:layout_height="1in"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/lh"/>
+                    android:src="@drawable/lh"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingLeft="1.1in"
+                    android:layout_gravity="center"
+                    android:paddingStart="1.1in"
+                    android:text="@string/lewis_hamilton"
+                    android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:text="Lewis Hamilton"/>
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -70,19 +74,22 @@
                     android:layout_height="1in"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/michel"/>
+                    android:src="@drawable/michel"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingLeft="1.1in"
+                    android:layout_gravity="center"
+                    android:paddingStart="1.1in"
+                    android:text="@string/michael_schumacher"
+                    android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:text=" Michael Schumacher"/>
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -98,19 +105,22 @@
                     android:layout_height="1in"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/aryton"/>
+                    android:src="@drawable/aryton"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingLeft="1.1in"
+                    android:layout_gravity="center"
+                    android:paddingStart="1.1in"
+                    android:text="@string/ayrton_senna"
+                    android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:text="Ayrton Senna "/>
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -126,19 +136,22 @@
                     android:layout_height="1in"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/max"/>
+                    android:src="@drawable/max"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingLeft="1.1in"
+                    android:layout_gravity="center"
+                    android:paddingStart="1.1in"
+                    android:text="@string/max_verstappen"
+                    android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:text="Max Verstappen"/>
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -154,19 +167,22 @@
                     android:layout_height="1in"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/charles"/>
+                    android:src="@drawable/charles"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingLeft="1.1in"
+                    android:layout_gravity="center"
+                    android:paddingStart="1.1in"
+                    android:text="@string/charles_leclrc"
+                    android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:text="Charles Leclrc"/>
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -182,19 +198,22 @@
                     android:layout_height="1in"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/daniel"/>
+                    android:src="@drawable/daniel"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingLeft="1.1in"
+                    android:layout_gravity="center"
+                    android:paddingStart="1.1in"
+                    android:text="@string/daniel_ricciardo"
+                    android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:text="Daniel Ricciardo"/>
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
 
             </androidx.cardview.widget.CardView>
 
