@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="marca">
+    tools:context=".MarcaActivity">
 
 
     <ScrollView
@@ -26,8 +26,9 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="40dp"
+                android:fontFamily="@font/f1_font_regular"
                 android:text="@string/marcas"
-                android:textColor="@color/black"
+                android:textColor="@color/bg"
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
@@ -36,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
+                app:cardBackgroundColor="@color/bg"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp">
 
@@ -55,6 +56,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.2in"
                     android:text="@string/mercedes"
                     android:textColor="@color/mercedes"
@@ -67,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
+                app:cardBackgroundColor="@color/bg"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp">
 
@@ -86,6 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.2in"
                     android:text="@string/red_bull"
                     android:textColor="@color/Rd"
@@ -98,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
+                app:cardBackgroundColor="@color/bg"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp">
 
@@ -117,9 +120,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.2in"
                     android:text="@string/ferrari"
-                    android:textColor="@color/ferrari"
+                    android:textColor="@color/ruby"
                     android:textSize="23sp"
                     android:textStyle="bold"
                     tools:ignore="InOrMmUsage,RtlSymmetry" />
@@ -129,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
+                app:cardBackgroundColor="@color/bg"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp">
 
@@ -148,6 +152,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.2in"
                     android:text="@string/mclaren"
                     android:textColor="@color/orange"
@@ -160,7 +165,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
+                app:cardBackgroundColor="@color/bg"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp">
 
@@ -179,6 +184,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.2in"
                     android:text="@string/aston_martin"
                     android:textColor="@color/aston"
@@ -192,7 +198,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
+                app:cardBackgroundColor="@color/bg"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp">
 
@@ -211,6 +217,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.2in"
                     android:text="@string/alfa_romeo"
                     android:textColor="@color/alfa"
@@ -224,7 +231,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
+                app:cardBackgroundColor="@color/bg"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="10dp">
 
@@ -243,9 +250,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.2in"
                     android:text="@string/haas"
-                    android:textColor="@color/ferrari"
+                    android:textColor="@color/ruby"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     tools:ignore="InOrMmUsage,RtlSymmetry" />

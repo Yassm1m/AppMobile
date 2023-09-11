@@ -4,219 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context="main">
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnPistas"
+        android:layout_width="101dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="@color/ruby"
+        android:fontFamily="@font/f1_font_regular"
+        android:onClick="toPistas"
+        android:text="@string/tela_pista"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:overScrollMode="never"
-        android:scrollbars="vertical">
+    <Button
+        android:id="@+id/btnMarca"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="@color/ruby"
+        android:fontFamily="@font/f1_font_regular"
+        android:onClick="toMarcas"
+        android:text="@string/tela_marca"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <Button
+        android:id="@+id/btnDrivers"
+        android:layout_width="102dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="165dp"
+        android:backgroundTint="@color/ruby"
+        android:fontFamily="@font/f1_font_regular"
+        android:onClick="toDrivers"
+        android:text="@string/tela_drivers"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_margin="40dp"
-                android:text="@string/drivers"
-                android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="102dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="166dp"
+        android:backgroundTint="@color/ruby"
+        android:fontFamily="@font/f1_font_regular"
+        android:onClick="toSobre"
+        android:text="@string/tela_sobre"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="7dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="25dp"
-                app:cardBackgroundColor="@color/black">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/black"
-                    android:contentDescription="@string/contentdesc"
-                    android:elevation="3dp"
-                    android:src="@drawable/lh"
-                    tools:ignore="InOrMmUsage" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingStart="1.1in"
-                    android:text="@string/lewis_hamilton"
-                    android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold"
-                    tools:ignore="InOrMmUsage,RtlSymmetry" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="7dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="25dp"
-                app:cardBackgroundColor="@color/black">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/black"
-                    android:contentDescription="@string/contentdesc"
-                    android:elevation="3dp"
-                    android:src="@drawable/michel"
-                    tools:ignore="InOrMmUsage" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingStart="1.1in"
-                    android:text="@string/michael_schumacher"
-                    android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold"
-                    tools:ignore="InOrMmUsage,RtlSymmetry" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="7dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="25dp"
-                app:cardBackgroundColor="@color/black">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/black"
-                    android:contentDescription="@string/contentdesc"
-                    android:elevation="3dp"
-                    android:src="@drawable/aryton"
-                    tools:ignore="InOrMmUsage" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingStart="1.1in"
-                    android:text="@string/ayrton_senna"
-                    android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold"
-                    tools:ignore="InOrMmUsage,RtlSymmetry" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="7dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="25dp"
-                app:cardBackgroundColor="@color/black">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/black"
-                    android:contentDescription="@string/contentdesc"
-                    android:elevation="3dp"
-                    android:src="@drawable/max"
-                    tools:ignore="InOrMmUsage" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingStart="1.1in"
-                    android:text="@string/max_verstappen"
-                    android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold"
-                    tools:ignore="InOrMmUsage,RtlSymmetry" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="7dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="25dp"
-                app:cardBackgroundColor="@color/black">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/black"
-                    android:contentDescription="@string/contentdesc"
-                    android:elevation="3dp"
-                    android:src="@drawable/charles"
-                    tools:ignore="InOrMmUsage" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingStart="1.1in"
-                    android:text="@string/charles_leclrc"
-                    android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold"
-                    tools:ignore="InOrMmUsage,RtlSymmetry" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="7dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="30dp"
-                app:cardBackgroundColor="@color/black">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/black"
-                    android:contentDescription="@string/contentdesc"
-                    android:elevation="3dp"
-                    android:src="@drawable/daniel"
-                    tools:ignore="InOrMmUsage" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingStart="1.1in"
-                    android:text="@string/daniel_ricciardo"
-                    android:textColor="@color/white"
-                    android:textSize="23sp"
-                    android:textStyle="bold"
-                    tools:ignore="InOrMmUsage,RtlSymmetry" />
-
-            </androidx.cardview.widget.CardView>
-
-        </LinearLayout>
-    </ScrollView>
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="294dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="512dp"
+        android:fontFamily="@font/f1_font_regular"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="@color/bg"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

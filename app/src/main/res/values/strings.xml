@@ -1,21 +1,14 @@
 <resources>
     <string name="app_name">Speed Track</string>
-    <string name="title_activity_pistas">Leanback pistas</string>
-    <string name="browse_title">Videos by Your Company</string>
-    <string name="related_movies">Related Videos</string>
-    <string name="grid_view">Grid View</string>
-    <string name="error_fragment">Error Fragment</string>
-    <string name="personal_settings">Personal Settings</string>
-    <string name="watch_trailer_1">Watch trailer</string>
-    <string name="watch_trailer_2">FREE</string>
-    <string name="rent_1">Rent By Day</string>
-    <string name="rent_2">From $1.99</string>
-    <string name="buy_1">Buy and Own</string>
-    <string name="buy_2">AT $9.99</string>
-    <string name="movie">Movie</string>
-
     <string name="contentdesc"></string>
 
+    <!--Main-->
+    <string name="titulo">Speed Track</string>
+
+    <string name="tela_pista">Pistas</string>
+    <string name="tela_marca">Marcas</string>
+    <string name="tela_drivers">Drivers</string>
+    <string name="tela_sobre">Sobre</string>
 
     <!--Drivers-->
     <string name="drivers">DRIVERS</string>
@@ -49,7 +42,9 @@
     <string name="alfa_romeo">Alfa Romeo</string>
     <string name="haas">Haas</string>
 
-    <!-- Error messages -->
-    <string name="error_fragment_message">An error occurred</string>
-    <string name="dismiss_error">Dismiss</string>
+    <!--Sobre-->
+    <string name="sobre">SOBRE</string>
+
+    <string name="desc1">"Speed Track" é um aplicativo focado na Formula 1, onde você pode se informar mais sobre os corredores, as marcas e as pistas, aprendendo um pouco sobre sustentabilidade nesse meio.</string>
+    <string name="desc2">Coisas como "Como eles evitam a sobrecarga de O2 com seus carros" ou "Existe algo reciclável nesse meio" são coisas que você vai ver aqui!</string>
 </resources>
