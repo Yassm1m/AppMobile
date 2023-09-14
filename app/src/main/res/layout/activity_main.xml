@@ -133,4 +133,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtEntrou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="659dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="54dp"
+        android:fontFamily="@font/f1_font_regular"
+        android:text="@string/boas_vindas"
+        android:textColor="@color/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

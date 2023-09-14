@@ -10,6 +10,7 @@
     <string name="tela_drivers">Drivers</string>
     <string name="tela_sobre">Sobre</string>
     <string name="tela_reciclagem">Reciclagem</string>
+    <string name="boas_vindas">Entrou como: </string>
 
     <!--Drivers-->
     <string name="drivers">DRIVERS</string>
@@ -58,4 +59,11 @@
     <string name="noticia_tres">DRIVING SUSTAINABILITY</string>
     <string name="noticia_quatro">Com metas sustentáveis, F1 esbarra na logística do calendário</string>
     <string name="noticia_cinco">F1s Environmental Impact: Will F1s Net-Zero Goals Make a Difference?</string>
+
+    <!--Login-->
+    <string name="login">Login</string>
+
+    <string name="login_hint">Login</string>
+    <string name="pass_hint">Senha</string>
+    <string name="fazer">Fazer Login</string>
 </resources>

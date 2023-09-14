@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,7 +13,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Intent nomeUsu = getIntent();
+        String msg = "Entrou como: " + nomeUsu.getStringExtra(LoginActivity.LOGIN);
+        TextView nomeText = (TextView)findViewById(R.id.txtEntrou);
+        nomeText.setText(msg);
     }
+
+
 
     public void toPistas(View v){
         Intent i = new Intent(this, PistaActivity.class);
