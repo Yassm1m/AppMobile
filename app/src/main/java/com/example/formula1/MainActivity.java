@@ -26,9 +26,12 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, MarcaActivity.class);
         startActivity(i);
     }
-
     public void toSobre(View v){
         Intent i = new Intent(this, SobreActivity.class);
+        startActivity(i);
+    }
+    public void toReciclagem(View v){
+        Intent i = new Intent(this, ReciclagemActivity.class);
         startActivity(i);
     }
 }

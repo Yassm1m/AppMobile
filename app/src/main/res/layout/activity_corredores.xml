@@ -32,15 +32,14 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
                 app:cardBackgroundColor="@color/bg"
-                app:cardCornerRadius="25dp"
-                app:cardElevation="10dp">
+                app:cardCornerRadius="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/bg"
                     android:contentDescription="@string/contentdesc"
@@ -55,6 +54,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
                     android:text="@string/lewis_hamilton"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -64,15 +64,15 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
                 app:cardBackgroundColor="@color/bg"
-                app:cardCornerRadius="25dp"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
                     android:contentDescription="@string/contentdesc"
@@ -87,6 +87,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
                     android:text="@string/michael_schumacher"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -96,15 +97,15 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
                 app:cardBackgroundColor="@color/bg"
-                app:cardCornerRadius="25dp"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/bg"
                     android:contentDescription="@string/contentdesc"
@@ -119,6 +120,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
                     android:text="@string/ayrton_senna"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -128,15 +130,15 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
                 app:cardBackgroundColor="@color/bg"
-                app:cardCornerRadius="25dp"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/bg"
                     android:contentDescription="@string/contentdesc"
@@ -151,6 +153,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
                     android:text="@string/max_verstappen"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -160,15 +163,15 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
                 app:cardBackgroundColor="@color/bg"
-                app:cardCornerRadius="25dp"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/bg"
                     android:contentDescription="@string/contentdesc"
@@ -183,6 +186,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
                     android:text="@string/charles_leclrc"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -192,15 +196,15 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
                 app:cardBackgroundColor="@color/bg"
-                app:cardCornerRadius="30dp"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/bg"
                     android:contentDescription="@string/contentdesc"
@@ -215,6 +219,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/f1_font_regular"
                     android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
                     android:text="@string/daniel_ricciardo"
                     android:textColor="@color/white"
                     android:textSize="20sp"

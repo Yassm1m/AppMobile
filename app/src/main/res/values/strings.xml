@@ -9,6 +9,7 @@
     <string name="tela_marca">Marcas</string>
     <string name="tela_drivers">Drivers</string>
     <string name="tela_sobre">Sobre</string>
+    <string name="tela_reciclagem">Reciclagem</string>
 
     <!--Drivers-->
     <string name="drivers">DRIVERS</string>
@@ -46,5 +47,15 @@
     <string name="sobre">SOBRE</string>
 
     <string name="desc1">"Speed Track" é um aplicativo focado na Formula 1, onde você pode se informar mais sobre os corredores, as marcas e as pistas, aprendendo um pouco sobre sustentabilidade nesse meio.</string>
-    <string name="desc2">Coisas como "Como eles evitam a sobrecarga de O2 com seus carros" ou "Existe algo reciclável nesse meio" são coisas que você vai ver aqui!</string>
+    <string name="desc2">Dúvidas como "Como eles evitam a sobrecarga de CO2 com seus carros?" ou "Existe algo reciclável nesse meio?" serão respondidas aqui!</string>
+
+    <!--Reciclagem-->
+    <string name="reciclagem">RECICLAGEM</string>
+    <string name="vermais">Ver Mais</string>
+
+    <string name="noticia_um">Ford promete “compromisso com sustentabilidade” em parceria com Red Bull</string>
+    <string name="noticia_dois">Sustainability and F1: Strive to Survive?</string>
+    <string name="noticia_tres">DRIVING SUSTAINABILITY</string>
+    <string name="noticia_quatro">Com metas sustentáveis, F1 esbarra na logística do calendário</string>
+    <string name="noticia_cinco">F1s Environmental Impact: Will F1s Net-Zero Goals Make a Difference?</string>
 </resources>
