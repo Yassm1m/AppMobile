@@ -29,6 +29,7 @@
                 android:layout_margin="40dp"
                 android:fontFamily="@font/f1_font_regular"
                 android:text="@string/reciclagem"
+                android:textAlignment="center"
                 android:textColor="@color/bg"
                 android:textSize="26sp"
                 android:textStyle="bold" />
@@ -69,8 +70,10 @@
                     android:fontFamily="@font/f1_font_regular"
                     android:onClick="noticiaUm"
                     android:text="@string/vermais"
+                    android:textColor="@color/white"
                     android:translationX="235dp"
-                    android:translationY="70dp" />
+                    android:translationY="70dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
 
             </androidx.cardview.widget.CardView>
 
@@ -110,6 +113,7 @@
                     android:fontFamily="@font/f1_font_regular"
                     android:onClick="noticiaDois"
                     android:text="@string/vermais"
+                    android:textColor="@color/white"
                     android:translationX="235dp"
                     android:translationY="70dp" />
 
@@ -151,6 +155,7 @@
                     android:fontFamily="@font/f1_font_regular"
                     android:onClick="noticiaTres"
                     android:text="@string/vermais"
+                    android:textColor="@color/white"
                     android:translationX="235dp"
                     android:translationY="70dp" />
 
@@ -192,6 +197,7 @@
                     android:fontFamily="@font/f1_font_regular"
                     android:onClick="noticiaQuatro"
                     android:text="@string/vermais"
+                    android:textColor="@color/white"
                     android:translationX="235dp"
                     android:translationY="70dp" />
 
@@ -233,8 +239,10 @@
                     android:fontFamily="@font/f1_font_regular"
                     android:onClick="noticiaTres"
                     android:text="@string/vermais"
+                    android:textColor="@color/white"
                     android:translationX="235dp"
-                    android:translationY="70dp" />
+                    android:translationY="70dp"
+                    tools:ignore="TextContrastCheck" />
 
             </androidx.cardview.widget.CardView>
 

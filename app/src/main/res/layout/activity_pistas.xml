@@ -26,6 +26,7 @@
                 android:layout_margin="40dp"
                 android:fontFamily="@font/f1_font_regular"
                 android:text="@string/pistas"
+                android:textAlignment="center"
                 android:textColor="@color/bg"
                 android:textSize="26sp"
                 android:textStyle="bold" />

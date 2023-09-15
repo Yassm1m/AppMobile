@@ -25,6 +25,7 @@
                 android:layout_margin="40dp"
                 android:fontFamily="@font/f1_font_regular"
                 android:text="@string/drivers"
+                android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="26sp"
                 android:textStyle="bold" />
