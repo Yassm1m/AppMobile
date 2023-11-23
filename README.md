@@ -1,5 +1,5 @@
 <h1 align=center>SpeedTrack</h1>
-<h2>Dupla: Matheus Gama Russi & Yasmim Pereira da Costa</h2>
+<h2>Dupla: Moisés dos Santos Cruz & Yasmim Pereira da Costa</h2>
 
 <p align=justify>
     O aplicativo mobile "Speed Track" foi desenvolvido com o objetivo de unir a emoção e a paixão pela Fórmula 1 com a conscientização e a promoção da sustentabilidade ambiental. Combinando a alta tecnologia do esporte automobilístico mais prestigiado do mundo com a importância da proteção do meio ambiente, o aplicativo visa informar, engajar e inspirar fãs de corridas a adotarem práticas sustentáveis em suas vidas cotidianas.
