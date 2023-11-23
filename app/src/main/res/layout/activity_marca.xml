@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="marca">
+    tools:context=".MarcaActivity">
 
 
     <ScrollView
@@ -18,7 +18,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -26,208 +26,245 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="40dp"
-                android:text="CONSTRUCTORS"
-                android:textColor="@color/black"
+                android:fontFamily="@font/f1_font_regular"
+                android:text="@string/marcas"
+                android:textAlignment="center"
+                android:textColor="@color/bg"
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/mercedes" />
+                    android:src="@drawable/mercedes"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:paddingLeft="1.2in"
-                    android:text=" Mercedes"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.2in"
+                    android:paddingTop="60dp"
+                    android:text="@string/mercedes"
                     android:textColor="@color/mercedes"
                     android:textSize="23sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/red" />
+                    android:src="@drawable/red"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:paddingLeft="1.2in"
-                    android:text="Red Bull "
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.2in"
+                    android:paddingTop="60dp"
+                    android:text="@string/red_bull"
                     android:textColor="@color/Rd"
                     android:textSize="23sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/ferra" />
+                    android:src="@drawable/ferra"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:paddingLeft="1.2in"
-                    android:text=" Ferrari"
-                    android:textColor="@color/ferrari"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.2in"
+                    android:paddingTop="60dp"
+                    android:text="@string/ferrari"
+                    android:textColor="@color/ruby"
                     android:textSize="23sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/mc" />
+                    android:src="@drawable/mc"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:paddingLeft="1.2in"
-                    android:text="McLaren"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.2in"
+                    android:paddingTop="60dp"
+                    android:text="@string/mclaren"
                     android:textColor="@color/orange"
                     android:textSize="23sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/aston" />
+                    android:src="@drawable/aston"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:paddingLeft="1.2in"
-                    android:text=" Aston Martin"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.2in"
+                    android:paddingTop="60dp"
+                    android:text="@string/aston_martin"
                     android:textColor="@color/aston"
                     android:textSize="23sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="3dp"
-                    android:src="@drawable/alfa"/>
+                    android:src="@drawable/alfa"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:paddingLeft="1.2in"
-                    android:text=" Alfa Romeo"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.2in"
+                    android:paddingTop="60dp"
+                    android:text="@string/alfa_romeo"
                     android:textColor="@color/alfa"
                     android:textSize="23sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="147dp"
                 android:layout_margin="7dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
                     android:layout_margin="5dp"
                     android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
                     android:elevation="4dp"
-                    android:src="@drawable/haas" />
+                    android:src="@drawable/haas"
+                    tools:ignore="InOrMmUsage" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:paddingLeft="1.2in"
-                    android:text="Haas"
-                    android:textColor="@color/ferrari"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.2in"
+                    android:paddingTop="60dp"
+                    android:text="@string/haas"
+                    android:textColor="@color/ruby"
                     android:textSize="22sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>

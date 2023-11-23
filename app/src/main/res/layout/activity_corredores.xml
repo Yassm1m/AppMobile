@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".CorredoresActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:fontFamily="@font/f1_font_regular"
+                android:text="@string/drivers"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/bg"
+                    android:contentDescription="@string/contentdesc"
+                    android:elevation="3dp"
+                    android:src="@drawable/lh"
+                    tools:ignore="InOrMmUsage" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
+                    android:text="@string/lewis_hamilton"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/black"
+                    android:contentDescription="@string/contentdesc"
+                    android:elevation="3dp"
+                    android:src="@drawable/michel"
+                    tools:ignore="InOrMmUsage" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
+                    android:text="@string/michael_schumacher"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/bg"
+                    android:contentDescription="@string/contentdesc"
+                    android:elevation="3dp"
+                    android:src="@drawable/aryton"
+                    tools:ignore="InOrMmUsage" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
+                    android:text="@string/ayrton_senna"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/bg"
+                    android:contentDescription="@string/contentdesc"
+                    android:elevation="3dp"
+                    android:src="@drawable/max"
+                    tools:ignore="InOrMmUsage" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
+                    android:text="@string/max_verstappen"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/bg"
+                    android:contentDescription="@string/contentdesc"
+                    android:elevation="3dp"
+                    android:src="@drawable/charles"
+                    tools:ignore="InOrMmUsage" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
+                    android:text="@string/charles_leclrc"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="@color/bg"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="137dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/bg"
+                    android:contentDescription="@string/contentdesc"
+                    android:elevation="3dp"
+                    android:src="@drawable/daniel"
+                    tools:ignore="InOrMmUsage" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/f1_font_regular"
+                    android:paddingStart="1.1in"
+                    android:paddingTop="55dp"
+                    android:text="@string/daniel_ricciardo"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="InOrMmUsage,RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
