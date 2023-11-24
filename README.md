@@ -5,7 +5,7 @@
     O aplicativo mobile "Speed Track" foi desenvolvido com o objetivo de unir a emoção e a paixão pela Fórmula 1 com a conscientização e a promoção da sustentabilidade ambiental. Combinando a alta tecnologia do esporte automobilístico mais prestigiado do mundo com a importância da proteção do meio ambiente, o aplicativo visa informar, engajar e inspirar fãs de corridas a adotarem práticas sustentáveis em suas vidas cotidianas.
 </p>
 
-<h2>Link para o vídeo: https://youtu.be/rdx6YP3gFFA?si=n7bUrDIFDWlvh1yw</h2>
+<h2>Link para o vídeo: https://www.youtube.com/shorts/yfTN5nk7H9o</h2>
 
 <details>
     <summary><h1>Principais Características</h1></summary>
