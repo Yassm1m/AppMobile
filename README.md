@@ -1,5 +1,5 @@
 <h1 align=center>SpeedTrack</h1>
-<h2>Dupla: Matheus Gama Russi & Yasmim Pereira da Costa</h2>
+<h2>Dupla: Livia Rodrigues Cremonez & Yasmim Pereira da Costa</h2>
 
 <p align=justify>
     O aplicativo mobile "Speed Track" foi desenvolvido com o objetivo de unir a emoção e a paixão pela Fórmula 1 com a conscientização e a promoção da sustentabilidade ambiental. Combinando a alta tecnologia do esporte automobilístico mais prestigiado do mundo com a importância da proteção do meio ambiente, o aplicativo visa informar, engajar e inspirar fãs de corridas a adotarem práticas sustentáveis em suas vidas cotidianas.
@@ -18,6 +18,9 @@
         <br>
         <li align=justify><strong>Dicas para um melhor uso dos automóveis:</strong> Ao decorrer das informações e curiosidades apresentadas para o usuário, o aplicativo terá certas áreas onde terá diversos tipos de dicas sobre sustentabilidade ambiental, visando uma proximidade maior com o usuário e uma maior chance de convencer o usuário de que pensar de maneira sustentável vale a pena.
         </li>
+        <br>
+        <li align=justify><strong>Sensor utilizado:</strong> Este aplicativo contém funcionalidades aprimoradas, incluindo uma experiência sensorial, utilizando o sensor de vibração para proporcionar ao usuário uma interação mais cativante, e envolvente.
+        </li>   
     </ul>
 
 Ao criar o aplicativo "Speed Track", nós  acreditamos  que podemos combinar o entusiasmo e interesse da comunidade apaixonada pela Fórmula 1 com um propósito maior - conscientizar sobre a importância da sustentabilidade ambiental e incentivar ações que contribuam para um futuro mais verde e ecologicamente equilibrado. Ao promover uma mentalidade sustentável no contexto do automobilismo de alto nível, esperamos inspirar uma mudança positiva na indústria automobilística e entre os fãs do esporte, tornando a Fórmula 1 uma plataforma não apenas para competição emocionante, mas também para avanços significativos em prol do meio ambiente.
